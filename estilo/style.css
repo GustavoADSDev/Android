@@ -37,6 +37,7 @@ font-size: 1em
 body{
     background-color: var(--cor0);;
     font-family: var(--fonte-padrao);
+    overflow-x: hidden;
 }
 a.externo::after {
     content: '\00A0\1F517';
