@@ -62,10 +62,14 @@ font-family: var(--fonte-destaque);
 header>p{
     color: white;
     font-size: 1.0em;
-   margin: auto;
+   
 padding-left: 10px;
 padding-right: 10px;
-   width: 500px;
+   
+   width: 90%; /* Usa um valor relativo para se ajustar melhor */
+   max-width: 500px; /* Evita que fique muito grande */
+   margin: auto; /* Mantém centralizado */
+   word-wrap: break-word; /* Evita que palavras longas estourem */
   
 }
    main{
